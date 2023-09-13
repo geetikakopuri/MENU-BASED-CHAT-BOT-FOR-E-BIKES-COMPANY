@@ -1,4 +1,5 @@
 # MENU-BASED-CHAT-BOT-FOR-E-BIKES-COMPANY
-Electric Vehicle Customer Service Chatbot.
+<h3>Electric Vehicle Customer Service Chatbot.</h3>
 <br>
-![chatbot_iamge](../Screenshot 2023-09-13 152654.png)
+![chatbot_box](MENU-BASED-CHAT-BOT-FOR-E-BIKES-COMPANY\chatbot_box.png)
+
