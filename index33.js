@@ -141,12 +141,9 @@ function showOptions(options) {
     handleScroll();
   }
 }
-// Define a function to handle user input for the test ride section of vardata
 
-// Add a flag to track if the user is scheduling a test ride
 var isSchedulingTestRide = false;
 
-// Function to handle user input for the test ride section
 function handleTestRide() { 
    isSchedulingTestRide = true; 
  var msg = "Please select a location for the test ride:";
@@ -195,57 +192,13 @@ function handleTestRide() {
     locationBtn.addEventListener("click", function () {
       var selectedLocation = this.innerText;
       this.remove();
-      handleTestRideDetails(selectedLocation); // Pass the selected location as an argument
+      handleTestRideDetails(selectedLocation); 
     });
   }
 
   handleScroll();
 }
 
-
-//   for (var i = 0; i < data.testride.options.length; i++) {
-//     var locationBtn = document.createElement("button");
-//     locationBtn.setAttribute("class", "location-btn");
-//     locationBtn.innerText = data.testride.options[i];
-//     locationBtn.style.margin = "0.3rem 0.5rem";
-//     locationBtn.style.padding = "5px 20px";
-//     locationBtn.style.fontSize = "16px";
-//     locationBtn.style.borderRadius = "20px 20px";
-//     locationBtn.style.backgroundColor ="transparent";
-//     locationBtn.style.color = "blue";
-//     locationBtn.style.textAlign="center";
-//     locationBtn.style.fontWeight="400px";
-//     locationBtn.style.alignItems="left";
-//     locationBtn.style.lineHeight="normal";
-//     locationBtn.style.borderBottomStyle="none";
-//     locationBtn.style.borderBottomWidth="0px";
-//     locationBtn.style.borderLeftColor="rgb(0, 52, 153)";
-//     locationBtn.style.borderLeftStyle="none";
-//     locationBtn.style.borderLeftWidth="0px";
-//     locationBtn.style.borderRightColor="rgb(0, 52, 153)";
-//     locationBtn.style.borderRightStyle="none";
-//     locationBtn.style.borderRightWidth="0px";
-//     locationBtn.style.borderTopColor="rgb(0, 52, 153)";
-//     locationBtn.style.borderTopLeftRadius="6px";
-//     locationBtn.style.borderTopRightRadius="6px";
-//     locationBtn.style.borderTopStyle="none";
-//     locationBtn.style.borderTopWidth="0px";
-//     locationBtn.style.boxSizing="content-box";
-//     locationBtn.style.color="rgb(0, 52, 153)";
-//     locationBtn.style.borderColor= "blue";
-//     locationBtn.style.border=" 1px solid blue";
-//     locationBtn.style.fontFamily= system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-//     cbot.appendChild(locationBtn); 
-
-//     // Add event listener for location selection
-//     locationBtn.addEventListener("click", function () {
-//       var selectedLocation = this.innerText;
-//       this.remove();
-//       handleTestRideDetails(selectedLocation); // Pass the selected location as an argument
-//     });
-// }
-
-//   handleScroll();
 
 function handleTestRideDetails(location) {
   var detailsMsg = "Great! Please provide your details to schedule the test ride:";
@@ -366,11 +319,6 @@ if (selectedDate.getDay() === 0) {
    handleDelay(errorMsg);
    return;
  }
-
-
-
-     // Replace with the URL of your server-side script
-
     // Submit the form data using an AJAX request
     fetch('vihaan2.php', {
       method: "POST",
@@ -404,8 +352,7 @@ if (selectedDate.getDay() === 0) {
 
 var isHandleservices = false;
 
-    // Rest of the code remains unchanged
-
+ 
     //general services...
     function handleGeneralServices() {
       isHandleservices = true;

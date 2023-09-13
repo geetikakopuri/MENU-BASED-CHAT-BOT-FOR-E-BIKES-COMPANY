@@ -59,7 +59,7 @@ body{
 }
 
 .child{
-    /* box-shadow: 0 0 2px salmon; */
+    
     border-radius: 15px;
     height: 30rem;
     width: 16rem;
@@ -151,7 +151,6 @@ body{
     text-align: center;
     width:300px;
     overflow-y: scroll;
-    /* background-image:url('bg.png'); */
   background-position: center;  
   box-shadow: insert 0 0 0.5rem rgba(0,0,0,0.3);
 }
@@ -203,14 +202,6 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
   background-color: #45a049;
 }
-
-
-/*   
-  button:hover {
-    background-color: #0d2878f2;
-    color:blue;
-  } */
-
 .msg{
     margin-top: 25rem;
     margin: 0.9rem 0.1rem; 
@@ -219,8 +210,6 @@ form button[type="submit"]:hover {
     border-radius: 20px 20px;
     border-top-left-radius :1px;
 border-top-right-radius: 12px;
-/* border-top-style :none;
-border-top-width: 0px; */
 border-bottom-style :none;
 border-bottom-width :0px;
 border-right-style :none;
@@ -234,7 +223,6 @@ border-right-width :0px;
     max-width: 65%;
     text-align: left;
     font-family:system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    
     box-shadow: insert 0 0 0.5rem rgba(0,0,0,0.3);
 }
 .test{
@@ -244,19 +232,15 @@ border-right-width :0px;
 .rep{
     padding: 5px 20px;
     border-radius: 20px 20px; 
-    /* columns: lightsalmon;
-    border: 1px solid blueviolet; */
     margin: 0.3rem 0.5rem;
     display: inline-block;
     cursor: pointer;
     font-weight: 400px;
-    /* background: rgb(229, 238, 255); */
     text-align: center;
     font-size: 16px;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius :6px;
     font-family:system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    /* appearance: auto; */
     line-height: normal;
     border-bottom-style :none;
 border-bottom-width :0px;
@@ -536,7 +520,7 @@ align-items: right;
   .custom-select select {
     background-color: white;
     color: grey;
-    padding: 8px 32px 8px 16px; /* Added padding for the arrow */
+    padding: 8px 32px 8px 16px; 
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
@@ -555,7 +539,7 @@ align-items: right;
   .custom-select i {
     position: absolute;
     top: 50%;
-    right: 12px; /* Adjust the position of the arrow */
+    right: 12px; 
     transform: translateY(-50%);
     pointer-events: none;
   }
