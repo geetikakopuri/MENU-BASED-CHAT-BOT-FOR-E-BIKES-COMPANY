@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="currently_using_css.css">
+
+</head>
+<!-- ChatBot -->
+<div class="parent">
+  <div class="desc">
+    <button id="init" onclick="toggleAnimation()" onmouseenter="pauseAnimation()" onmouseleave="resumeAnimation()">
+      <i id="startIcon" class="fa fa-commenting-o" aria-hidden="true"></i>
+    </button>
+  </div>
+</div>
+
+<div id="test" style="position: fixed;top:3rem;right: 8rem; display:none;">
+        <div class="child" id="chatbot">
+            <div class="header">
+                <div class="h-child">
+                     <img src="https://www.vihaanelectrix.in/img/ve_verticles_new.png" alt="avatar" id="avatar">
+                    <div>
+                        <span class="name",style="">VIHAAN ELECTRIX</span>
+                     
+                        <br>
+                        <span style="color:rgb(167, 244, 167)">online</span>
+                    </div>
+                    
+
+                </div>
+                 <div>
+                    <button class="refBtn"><i class="fa fa-refresh" onclick="initChat()"></i></button>
+                </div>
+            </div>
+
+            <div id="chat-box">
+
+            </div>
+            
+
+            <div class="footer">
+               <span class="footer_name">powered by @VIHAANELECTRIX</span>
+            </div>
+        </div>
+    </div>
+    <!-- js file  -->
+    <script src="index33.js"></script>
+
+
+</body>
+</html>
