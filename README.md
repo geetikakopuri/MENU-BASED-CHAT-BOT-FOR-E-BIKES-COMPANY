@@ -3,6 +3,6 @@
 <br>
 
 
-![chatbot_box](box.jpg)
+![chatbot_box](new.png)
 
 
